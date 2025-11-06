@@ -436,9 +436,9 @@ const SearchFilter = ({
             </button>
             <div className="absolute inset-0 bg-transparent cursor-not-allowed"></div>
             {/* Tooltip style message */}
-            <div className="absolute -bottom-6 left-0 text-xs text-gray-500">
+            {/* <div className="absolute -bottom-6 left-0 text-xs text-gray-500">
               Location is fixed for this page
-            </div>
+            </div> */}
           </div>
         ) : (
           // Normal page - working dropdown

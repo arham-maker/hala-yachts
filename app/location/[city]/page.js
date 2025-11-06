@@ -23,12 +23,12 @@ const PAGE_STYLES = {
   filterContainer: "mb-8",
   grid: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
   emptyState: "text-center py-16 rounded-2xl",
-  emptyStateContainer: "max-w-md mx-auto",
+  emptyStateContainer: "max-w-md mx-auto flex flex-col gap-3 justify-center items-center",
   emptyStateIcon: "w-16 h-16 text-gray-400 mx-auto mb-4",
-  emptyStateTitle: "text-2xl font-light text-gray-600 mb-2",
-  emptyStateText: "text-gray-500 mb-6",
+  emptyStateTitle: "text-2xl tracking-wider font-light",
+  emptyStateText: "text-sm md:text-base lg:text-lg tracking-wider font-light",
   emptyStateButton:
-    "inline-flex items-center gap-2 bg-gray-200 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-300 transition-colors",
+    "text-lg tracking-wider font-light inline-flex items-center gap-2 bg-gray-200 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-300 transition-colors",
 };
 
 // Filter logic constants

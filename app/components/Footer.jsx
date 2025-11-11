@@ -112,11 +112,11 @@ const Footer = () => {
                       {COMPANY_INFO.phone}
                     </a>
                   </AnimatedLi>
-                  <AnimatedLi>
+                  {/* <AnimatedLi>
                     <span className="text-white hover:text-[#c8a75c] tracking-wider block">
                       {COMPANY_INFO.address}
                     </span>
-                  </AnimatedLi>
+                  </AnimatedLi> */}
                 </ul>
               </div>
             </div>
